@@ -1,6 +1,8 @@
 const express = require('express');
 const sequelize = require('./config/connection');
 const routes = require('./routes');
+const chalk = require('chalk');
+
 // import sequelize connection
 
 const app = express();
@@ -16,6 +18,6 @@ app.use(routes);
 // added sequelize.sync function
 sequelize.sync({ force: false }).then ( () => {
     app.listen(PORT, () => 
-        { console.log(`eSale listening on port ${PORT}!`) 
+        { console.log(chalk.cyanBright(`eSale listening on port ${PORT}! \n Go to Insomnia to test routes.`)) 
     });
 });
