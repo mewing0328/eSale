@@ -112,3 +112,5 @@ Credit for tutorials and guides I utilized in my code
 [MySQL2 Package](https://www.npmjs.com/package/mysql2): To connect to a MySQL database
 
 [medium.com](https://medium.com/analytics-vidhya/deploy-to-heroku-with-jawsdb-mysql-cbe255de73f3): Deploy to Heroku with JawsDB MySQL
+
+[mfikri.com](https://mfikri.com/en/blog/restful-api-express-sequelize): How to Create a RESTful API Using Node.js Express and Sequelize
