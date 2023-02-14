@@ -2,7 +2,7 @@
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-Application is the back end of an e-commerce site with a working Express.js API to use Sequelize to interact with MySQL database.
+Application is the back end of an e-commerce site with a working Express.js API to use Sequelize to interact with MySQL database. Insomnia application was utilized to demo the routes.
 
 ## Table of Contents
 [1. Installation](#installation)
@@ -28,11 +28,16 @@ The application has dependencies (see package.json file). Before using the appli
 npm install
 ```
 
+Next seed the data into the MySQL database.
+```bash
+npm run seed
+```
+
 ## Usage 
 The application will be invoked by using the following command:
 
 ```bash
-node server.js
+node server.js OR npm start
 ```
 
 ```
@@ -46,9 +51,9 @@ The application enables a user to:
 ```
 
 ## Demo
-[Link for demo video](x) (Length of video: x minutes and x seconds)
+[Link for demo video](https://watch.screencastify.com/v/r1iVm9BSxTlDI47FCRQM) (Length of video: 5 minutes and 36 seconds)
 
-The video is also within the assets folder.
+The video is also within the assets folder in this repository.
 ```
 A walkthrough video demonstrates: 
 - the functionality of the e-commerce back end
@@ -62,7 +67,7 @@ A walkthrough video demonstrates:
 
 ## Contributing 
 Contributions are welcomed for future versions with features such as:
-- x
+- Deploy the application in Heroku
 - additional enhancements
 
 For all contributions, please refer to [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) for contributing guidelines.
@@ -83,24 +88,30 @@ eSale application is covered by MIT license.
  [![MIT}](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
  ## Screenshots 
-Images of different menu options
 
-1. x
+1. Creating database in MySQL workbench
 
-    <img src="./assets" style="width:30rem">
+    <img src="./assets/createDb.png" style="width:30rem">
 
-2. x
+2. Seeding data into database and Starting application
 
-    <img src="./assets/x" style="width:30rem">
+    <img src="./assets/seedStart.png" style="width:30rem">
 
-3. x
+3. CREATE (POST) a new Category
 
-    <img src="./assets/x" style="width:30rem">
+    <img src="./assets/createCat.png" style="width:30rem">
 
-4. x
+4. READ (GET) all Products
 
-    <img src="./assets/x" style="width:30rem">
+    <img src="./assets/readAllP.png" style="width:30rem">
 
+5. UPDATE (PUT) a Tag by ID
+
+    <img src="./assets/updateTag.png" style="width:30rem">
+
+6. DELETE a Category by ID
+
+    <img src="./assets/deleteCat.png" style="width:30rem">
 
 ## Credits
 Credit for tutorials and guides I utilized in my code
